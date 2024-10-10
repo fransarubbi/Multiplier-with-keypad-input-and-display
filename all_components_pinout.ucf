@@ -1,0 +1,34 @@
+NET  "clk"  LOC = P56;
+NET  "rst"  LOC = P38;
+
+NET  "row(0)"  LOC = P29;
+NET  "row(1)"  LOC = P26;
+NET  "row(2)"  LOC = P23;
+NET  "row(3)"  LOC = P21;
+
+NET  "selector(0)"  LOC = P57;
+NET  "selector(1)"  LOC = P66;
+NET  "selector(2)"  LOC = P74;
+NET  "selector(3)"  LOC = P78;
+
+NET  "digitos(0)"  LOC = P82;
+NET  "digitos(1)"  LOC = P84;
+NET  "digitos(2)"  LOC = P87;
+NET  "digitos(3)"  LOC = P92;
+NET  "digitos(4)"  LOC = P97;
+NET  "digitos(5)"  LOC = P94;
+NET  "digitos(6)"  LOC = P99;
+NET "pd" LOC = P80;
+
+
+NET  "col(0)"  LOC = P144;
+NET  "col(1)"  LOC = P142;
+NET  "col(2)"  LOC = P140;
+NET  "col(3)"  LOC = P138;
+
+NET  "col(0)"  PULLDOWN;
+NET  "col(1)"  PULLDOWN;
+NET  "col(2)"  PULLDOWN;
+NET  "col(3)"  PULLDOWN;
+
+NET CLK PERIOD = 19 ns;
